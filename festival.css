@@ -1,19 +1,30 @@
 /* Set up colour palette and fonts using variables */
 
 :root {
-  --primary: #ff981b; /* */
+  --primary: #f0d59b; /* */
   --onprimary: #000000; /* */
-  --secondary: #b61023; /* */
-  --onsecondary: #ffffff; /* */
-  --tertiary: #0aac69; /* */
-  --ontertiary: #000000; /* */
+  --secondary: #67b267; /* */
+  --onsecondary: #f3eac8; /* */
+  --tertiary: #1b78a7; /* */
+  --ontertiary: #ffffff; /* */
   --page: #ffffff; /* */
   --onpage: #000000; /* */
-  --detail: #3b8545; /* */
-  --detail2: #850f00; /* */
-  
+  --detail: #193543; /* */
+  --detail2: #8c2421; /* */
+
   --body-font: 1rem Verdana, sans-serif;
-  --header-font: lighter 3rem "Miltonian", cursive;
+  --header-font: lighter 3rem "Bungee", cursive;
   --title-font: lighter 2rem "Miltonian", cursive;
-  --quote-font: lighter 1.5rem "Miltonian", cursive;
+  --quote-font: lighter 1.5rem "Bungee", cursive;
+
+}
+
+.bigfont {
+  font-size: 3rem;
+  font: var(--header-font);
+}
+
+.smallfont {
+  font-size: 1rem;
+  font: var(--body-font);
 }

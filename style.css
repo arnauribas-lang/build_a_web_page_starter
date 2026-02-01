@@ -314,3 +314,8 @@ cite {
 .hugefont:hover {
   transform: scale(1.2);
 }
+
+.varietat-hockey {
+  font-weight: bold;
+  font-family: Impact;
+}
